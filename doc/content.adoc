@@ -161,7 +161,7 @@ hash output, and on the size and quality of the key.
 ;; => true
 ----
 
-The key parameter can be any type that implements the *ByteArray* protocol
+The key parameter can be any type that implements the *IByteArray* protocol
 defined in the `buddy.core.codecs` namespace. It comes with default implementations
 for `byte[]` and `java.lang.String` and `nil`.
 
